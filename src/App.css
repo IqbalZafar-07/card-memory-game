@@ -1,0 +1,8 @@
+.App {
+  height: 90vh !important;
+  text-align: center;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}

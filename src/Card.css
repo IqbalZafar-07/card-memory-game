@@ -1,0 +1,19 @@
+.card {
+  margin: 0.1rem;
+  height: 90px;
+  width: 90px;
+  border-radius: 10% !important;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s;
+  font-size: 50px;
+}
+.card:hover {
+  cursor: pointer;
+}
+.face-up {
+  transform: rotateY(180deg);
+}
